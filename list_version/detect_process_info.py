@@ -1,3 +1,6 @@
+import re
+import os
+
 # List Version
 pids = []
 proc_list = os.popen('tasklist').readlines()
@@ -11,3 +14,4 @@ for proc in proc_list:
 
     # adds a (pname, pid) tuple pair to the list
     pids.append((pname[0], pid[0]))
+    
