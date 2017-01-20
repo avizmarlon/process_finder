@@ -1,7 +1,5 @@
 import re
 import os
-import pyperclip
-import time
 
 # Dict Version
 pids = {}
